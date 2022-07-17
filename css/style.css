@@ -2,7 +2,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
     height: 800px;
 }
 
@@ -35,8 +34,9 @@ nav{
     z-index: -1;
 }
 
-
-
+.nav__logo{
+    width: 150px;
+}
 
 
 
@@ -195,7 +195,6 @@ section{
     z-index: 100;
     right: 0;
     top: 0;
-    width: 0px;
     height: 100%;
     background-color: rgb(242, 242, 242);
     display: none;

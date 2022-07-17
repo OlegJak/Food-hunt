@@ -1,14 +1,17 @@
 $(".menu__icon").click(function(){
     $(".menu").css({"display": "flex"})
     $(".menu").animate({
-        width: "35%",
-    }, 1000);
+        width: "35%"
+    }, 300);
+    $("body").css({"overflow": "hidden"})
 });
 
 $(".nav__menu__cross").click(function () { 
     $(".menu").animate({
-        width: "0px",
-    }, 1000);
+        width: "0%",
+    }, 300);
+    $("body").css({"overflow": "scroll"});
+    $(".menu").css({"display": "none"})
 });
 
 
