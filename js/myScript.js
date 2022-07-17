@@ -3,15 +3,15 @@ $(".menu__icon").click(function(){
     $(".menu").animate({
         width: "35%"
     }, 300);
-    $("body").css({"overflow": "hidden"})
+    $("body").css({"position": "fixed"})
 });
 
 $(".nav__menu__cross").click(function () { 
     $(".menu").animate({
         width: "0%",
     }, 300);
-    $("body").css({"overflow": "scroll"});
-    $(".menu").css({"display": "none"})
+    $(".menu").hide(0)
+    $("body").css({"position": "absolute"})
 });
 
 
